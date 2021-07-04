@@ -1,1 +1,62 @@
-h1 {color: red;}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.orange {color: orange;}
+.half {
+    width: 50%;
+    padding-left: 10%;
+}
+.section-1 {
+    display: flex;
+    background-image: url("/images/pica.png");
+    background-repeat: no-repeat;
+   
+}
+h1 {
+    font-size: 50px;
+}
+.anchor {
+text-decoration: none;
+color: white;
+background-image: linear-gradient(orange, orangered);
+padding: 10px 40px;
+font-weight: 700;
+border-radius: 10px;
+}
+.section-2 {
+    display: flex;
+background-image: url(/images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+
+}
+
+.div-flex {
+    display: flex;
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.div-last{
+    
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 5%;
+    margin: 5%;
+}
+#first {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, orangered);
+    border-image-slice: 1;
+    
+}
+#last {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
