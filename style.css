@@ -10,7 +10,7 @@ body {
 }
 .section-1 {
     display: flex;
-    background-image: url("/images/pica.png");
+    background-image: url("images/pica.png");
     background-repeat: no-repeat;
    
 }
@@ -27,7 +27,7 @@ border-radius: 10px;
 }
 .section-2 {
     display: flex;
-background-image: url(/images/dream-bg.png);
+background-image: url("images/dream-bg.png");
 background-repeat: no-repeat;
 background-position: right;
 
@@ -35,7 +35,7 @@ background-position: right;
 
 .div-flex {
     display: flex;
-    background-image: url(/images/exp-bg.png);
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
